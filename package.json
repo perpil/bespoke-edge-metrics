@@ -1,0 +1,20 @@
+{
+  "name": "bespoke-edge-metrics",
+  "version": "0.1.0",
+  "bin": {
+    "bespoke-edge-metrics": "bin/bespoke-edge-metrics.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.160.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.160.0",
+    "constructs": "^10.0.0"
+  }
+}
